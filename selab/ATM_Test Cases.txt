@@ -1,0 +1,49 @@
+                           Test Case for ATM
+
+Test Design is creating a set of inputs for given software that will provide a set
+of expected outputs. The idea is to ensure that the system is working good enough
+and it can be released with as few problems as possible for the average user.
+
+Test Design for ATM Machine:
+
+1.Machine is accepting ATM card.
+2.Machine is rejecting expired card.
+3.Successful entry of PIN number.
+4.Unsuccessful operation due to wrong PIN number 3 times.
+5.Successful selection of language.
+6.Successful selection of account type.
+7.Unsuccessful operation due to invalid account type.
+8.Successful selection of amount to be withdraw.
+9.Successful withdrawal.
+10.Expected message due to amount is greater than day limit.
+11.Unsuccessful withdraw operation due to lack of money in ATM.
+12.Expected message due to amount to withdraw is greater than possible balance.
+13.Unsuccessful withdraw operation due to click cancel after insert card.
+
+Write the Test Cases for ATM:
+
+Test Cases for ATM Machine;
+
+1.Successful inspection of ATM card.
+2.Unsuccessful operation due to insert card in wrong angle.
+3.Unsuccessful operation due to invalid account. Ex:Other bank card or time
+  expired Card.
+4.Successful entry of PIN number.
+5.Unsuccessful operation due to enter wrong PIN number 3 times.
+6.Successful selection of language.
+7.Successful selection of account type.
+8.Unsuccessful operation due to invalid account type.
+9.Successful selection of withdrawal operation.
+10.Successful selection of amount to be withdrawal.
+11.Successful withdrawal operation.
+12.Unsuccessful withdrawal operation due to wrong denominations.
+13.Unsuccessful withdrawal operation due to amount is greater than day limit.
+14.Unsuccessful withdrawal operation due to lack of money in ATM.
+15.Unsuccessful withdrawal operation due to amount is greater than possible 
+   balance.
+16.Unsuccessful withdrawal operation due to transactions is greater than day 
+   limit.
+17.Unsuccessful withdrawal operation due to click cancel after insert card.
+18.Unsuccessful withdrawal operation due to click cancel after insert card and 
+   PIN number.
+

@@ -1,0 +1,826 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAGGno/uFECfEkY=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model1",
+			"ownedElements": [
+				{
+					"_type": "UMLPackageDiagram",
+					"_id": "AAAAAAGGno/uFECghsk=",
+					"_parent": {
+						"$ref": "AAAAAAGGno/uFECfEkY="
+					},
+					"name": "PackageDiagram1",
+					"ownedElements": [
+						{
+							"_type": "FCFlowchart",
+							"_id": "AAAAAAGGnpAJbECk6X4=",
+							"_parent": {
+								"$ref": "AAAAAAGGno/uFECghsk="
+							},
+							"name": "Flowchart1",
+							"ownedElements": [
+								{
+									"_type": "FCFlowchartDiagram",
+									"_id": "AAAAAAGGnpAJbEClETY=",
+									"_parent": {
+										"$ref": "AAAAAAGGnpAJbECk6X4="
+									},
+									"name": "FlowchartDiagram1",
+									"ownedViews": [
+										{
+											"_type": "FCTerminatorView",
+											"_id": "AAAAAAGGnqIzMUCrYhA=",
+											"_parent": {
+												"$ref": "AAAAAAGGnpAJbEClETY="
+											},
+											"model": {
+												"$ref": "AAAAAAGGnqIzMUCpUuc="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGGnqIzMUCsyIw=",
+													"_parent": {
+														"$ref": "AAAAAAGGnqIzMUCrYhA="
+													},
+													"font": "Arial;13;0",
+													"left": 402,
+													"top": 42,
+													"width": 68.63720703125,
+													"height": 13,
+													"text": "Welcome",
+													"wordWrap": true
+												}
+											],
+											"font": "Arial;13;0",
+											"left": 392,
+											"top": 32,
+											"width": 88.63720703125,
+											"height": 33,
+											"nameLabel": {
+												"$ref": "AAAAAAGGnqIzMUCsyIw="
+											}
+										},
+										{
+											"_type": "FCTerminatorView",
+											"_id": "AAAAAAGGnqJaaEC0mT0=",
+											"_parent": {
+												"$ref": "AAAAAAGGnpAJbEClETY="
+											},
+											"model": {
+												"$ref": "AAAAAAGGnqJaaECynZM="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGGnqJaaEC1/6k=",
+													"_parent": {
+														"$ref": "AAAAAAGGnqJaaEC0mT0="
+													},
+													"font": "Arial;13;0",
+													"left": 402,
+													"top": 146,
+													"width": 68.63720703125,
+													"height": 26,
+													"text": "Card inserted",
+													"wordWrap": true
+												}
+											],
+											"font": "Arial;13;0",
+											"left": 392,
+											"top": 136,
+											"width": 88.63720703125,
+											"height": 46,
+											"nameLabel": {
+												"$ref": "AAAAAAGGnqJaaEC1/6k="
+											}
+										},
+										{
+											"_type": "FCTerminatorView",
+											"_id": "AAAAAAGGnqKT+UC+7Dc=",
+											"_parent": {
+												"$ref": "AAAAAAGGnpAJbEClETY="
+											},
+											"model": {
+												"$ref": "AAAAAAGGnqKT+EC8Mv0="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGGnqKT+UC/0oU=",
+													"_parent": {
+														"$ref": "AAAAAAGGnqKT+UC+7Dc="
+													},
+													"font": "Arial;13;0",
+													"left": 386,
+													"top": 330,
+													"width": 93,
+													"height": 13,
+													"text": "Card correct",
+													"wordWrap": true
+												}
+											],
+											"font": "Arial;13;0",
+											"left": 376,
+											"top": 320,
+											"width": 113,
+											"height": 46,
+											"nameLabel": {
+												"$ref": "AAAAAAGGnqKT+UC/0oU="
+											}
+										},
+										{
+											"_type": "FCTerminatorView",
+											"_id": "AAAAAAGGnqK5WUDI0oM=",
+											"_parent": {
+												"$ref": "AAAAAAGGnpAJbEClETY="
+											},
+											"model": {
+												"$ref": "AAAAAAGGnqK5WEDGWkM="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGGnqK5WUDJMEk=",
+													"_parent": {
+														"$ref": "AAAAAAGGnqK5WUDI0oM="
+													},
+													"font": "Arial;13;0",
+													"left": 394,
+													"top": 434,
+													"width": 68.63720703125,
+													"height": 13,
+													"text": "PIN correct",
+													"wordWrap": true
+												}
+											],
+											"font": "Arial;13;0",
+											"left": 384,
+											"top": 424,
+											"width": 88.63720703125,
+											"height": 33,
+											"nameLabel": {
+												"$ref": "AAAAAAGGnqK5WUDJMEk="
+											}
+										},
+										{
+											"_type": "FCTerminatorView",
+											"_id": "AAAAAAGGnqM+KUDRD7w=",
+											"_parent": {
+												"$ref": "AAAAAAGGnpAJbEClETY="
+											},
+											"model": {
+												"$ref": "AAAAAAGGnqM+KUDPDrI="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGGnqM+KUDSAKA=",
+													"_parent": {
+														"$ref": "AAAAAAGGnqM+KUDRD7w="
+													},
+													"font": "Arial;13;0",
+													"left": 394,
+													"top": 522,
+													"width": 68.63720703125,
+													"height": 26,
+													"text": "Amount entered",
+													"wordWrap": true
+												}
+											],
+											"font": "Arial;13;0",
+											"left": 384,
+											"top": 512,
+											"width": 88.63720703125,
+											"height": 46,
+											"nameLabel": {
+												"$ref": "AAAAAAGGnqM+KUDSAKA="
+											}
+										},
+										{
+											"_type": "FCFlowView",
+											"_id": "AAAAAAGGnqRQuUDoQV0=",
+											"_parent": {
+												"$ref": "AAAAAAGGnpAJbEClETY="
+											},
+											"model": {
+												"$ref": "AAAAAAGGnqRQuUDmSYQ="
+											},
+											"subViews": [
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAGGnqRQuUDpO+M=",
+													"_parent": {
+														"$ref": "AAAAAAGGnqRQuUDoQV0="
+													},
+													"model": {
+														"$ref": "AAAAAAGGnqRQuUDmSYQ="
+													},
+													"font": "Arial;13;0",
+													"left": 352,
+													"top": 92,
+													"width": 61.41357421875,
+													"height": 13,
+													"alpha": -1.5896622941530647,
+													"distance": 53.009433122794285,
+													"hostEdge": {
+														"$ref": "AAAAAAGGnqRQuUDoQV0="
+													},
+													"edgePosition": 1,
+													"text": "Insert card"
+												}
+											],
+											"font": "Arial;13;0",
+											"head": {
+												"$ref": "AAAAAAGGnqJaaEC0mT0="
+											},
+											"tail": {
+												"$ref": "AAAAAAGGnqIzMUCrYhA="
+											},
+											"lineStyle": 2,
+											"points": "435:64;435:136",
+											"nameLabel": {
+												"$ref": "AAAAAAGGnqRQuUDpO+M="
+											}
+										},
+										{
+											"_type": "FCFlowView",
+											"_id": "AAAAAAGGnqSSaUDzgTI=",
+											"_parent": {
+												"$ref": "AAAAAAGGnpAJbEClETY="
+											},
+											"model": {
+												"$ref": "AAAAAAGGnqSSaEDx61w="
+											},
+											"subViews": [
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAGGnqSSaUD0aWo=",
+													"_parent": {
+														"$ref": "AAAAAAGGnqSSaUDzgTI="
+													},
+													"model": {
+														"$ref": "AAAAAAGGnqSSaEDx61w="
+													},
+													"font": "Arial;13;0",
+													"left": 519,
+													"top": 168,
+													"width": 148.84619140625,
+													"height": 13,
+													"alpha": -3.241260986066809,
+													"distance": 70.34912934784623,
+													"hostEdge": {
+														"$ref": "AAAAAAGGnqSSaUDzgTI="
+													},
+													"edgePosition": 1,
+													"text": "[Card refused] return card"
+												}
+											],
+											"font": "Arial;13;0",
+											"head": {
+												"$ref": "AAAAAAGGnqIzMUCrYhA="
+											},
+											"tail": {
+												"$ref": "AAAAAAGGnqJaaEC0mT0="
+											},
+											"lineStyle": 2,
+											"points": "480:160;600:160;600:48;480:48",
+											"nameLabel": {
+												"$ref": "AAAAAAGGnqSSaUD0aWo="
+											}
+										},
+										{
+											"_type": "FCFlowView",
+											"_id": "AAAAAAGGnqVTkkEFQa8=",
+											"_parent": {
+												"$ref": "AAAAAAGGnpAJbEClETY="
+											},
+											"model": {
+												"$ref": "AAAAAAGGnqVTkUEDgyQ="
+											},
+											"subViews": [
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAGGnqVTkkEG4WI=",
+													"_parent": {
+														"$ref": "AAAAAAGGnqVTkkEFQa8="
+													},
+													"model": {
+														"$ref": "AAAAAAGGnqVTkUEDgyQ="
+													},
+													"font": "Arial;13;0",
+													"left": 439,
+													"top": 224,
+													"width": 84.55078125,
+													"height": 13,
+													"alpha": 1.9809234449880033,
+													"distance": 50.15974481593781,
+													"hostEdge": {
+														"$ref": "AAAAAAGGnqVTkkEFQa8="
+													},
+													"edgePosition": 1,
+													"text": "Card accepted"
+												}
+											],
+											"font": "Arial;13;0",
+											"head": {
+												"$ref": "AAAAAAGGnqKT+UC+7Dc="
+											},
+											"tail": {
+												"$ref": "AAAAAAGGnqJaaEC0mT0="
+											},
+											"lineStyle": 2,
+											"points": "435:181;435:320",
+											"nameLabel": {
+												"$ref": "AAAAAAGGnqVTkkEG4WI="
+											}
+										},
+										{
+											"_type": "FCFlowView",
+											"_id": "AAAAAAGGnqcgYUEvHgM=",
+											"_parent": {
+												"$ref": "AAAAAAGGnpAJbEClETY="
+											},
+											"model": {
+												"$ref": "AAAAAAGGnqcgYUEtiPg="
+											},
+											"subViews": [
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAGGnqcgYUEw0no=",
+													"_parent": {
+														"$ref": "AAAAAAGGnqcgYUEvHgM="
+													},
+													"model": {
+														"$ref": "AAAAAAGGnqcgYUEtiPg="
+													},
+													"font": "Arial;13;0",
+													"left": 183,
+													"top": 264,
+													"width": 236.98974609375,
+													"height": 13,
+													"alpha": 1.8347598260970988,
+													"distance": 38.3275357934736,
+													"hostEdge": {
+														"$ref": "AAAAAAGGnqcgYUEvHgM="
+													},
+													"edgePosition": 1,
+													"text": " input PIN [PIN wrong for 1st or 2nd time]"
+												}
+											],
+											"font": "Arial;13;0",
+											"head": {
+												"$ref": "AAAAAAGGnqKT+UC+7Dc="
+											},
+											"tail": {
+												"$ref": "AAAAAAGGnqJaaEC0mT0="
+											},
+											"lineStyle": 2,
+											"points": "424:181;424:280;264:280;264:344;376:344",
+											"nameLabel": {
+												"$ref": "AAAAAAGGnqcgYUEw0no="
+											}
+										},
+										{
+											"_type": "FCFlowView",
+											"_id": "AAAAAAGGnqrp4UFLIrE=",
+											"_parent": {
+												"$ref": "AAAAAAGGnpAJbEClETY="
+											},
+											"model": {
+												"$ref": "AAAAAAGGnqrp4EFJJdg="
+											},
+											"subViews": [
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAGGnqrp4UFMoh8=",
+													"_parent": {
+														"$ref": "AAAAAAGGnqrp4UFLIrE="
+													},
+													"model": {
+														"$ref": "AAAAAAGGnqrp4EFJJdg="
+													},
+													"font": "Arial;13;0",
+													"left": 494,
+													"top": 352,
+													"width": 266.59521484375,
+													"height": 13,
+													"alpha": -3.662730683078692,
+													"distance": 186.79668091269716,
+													"hostEdge": {
+														"$ref": "AAAAAAGGnqrp4UFLIrE="
+													},
+													"edgePosition": 1,
+													"text": "input PIN[PIN wrong for 3rd time] retract card"
+												}
+											],
+											"font": "Arial;13;0",
+											"head": {
+												"$ref": "AAAAAAGGnqIzMUCrYhA="
+											},
+											"tail": {
+												"$ref": "AAAAAAGGnqKT+UC+7Dc="
+											},
+											"lineStyle": 2,
+											"points": "488:344;720:344;720:48;480:48",
+											"nameLabel": {
+												"$ref": "AAAAAAGGnqrp4UFMoh8="
+											}
+										},
+										{
+											"_type": "FCFlowView",
+											"_id": "AAAAAAGGnqxWOUFewfI=",
+											"_parent": {
+												"$ref": "AAAAAAGGnpAJbEClETY="
+											},
+											"model": {
+												"$ref": "AAAAAAGGnqxWOEFcROg="
+											},
+											"subViews": [
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAGGnqxWOUFf2io=",
+													"_parent": {
+														"$ref": "AAAAAAGGnqxWOUFewfI="
+													},
+													"model": {
+														"$ref": "AAAAAAGGnqxWOEFcROg="
+													},
+													"font": "Arial;13;0",
+													"left": 352,
+													"top": 386,
+													"width": 65.0126953125,
+													"height": 13,
+													"alpha": -1.592070050677179,
+													"distance": 47.01063709417264,
+													"hostEdge": {
+														"$ref": "AAAAAAGGnqxWOUFewfI="
+													},
+													"edgePosition": 1,
+													"text": "PIN correct"
+												}
+											],
+											"font": "Arial;13;0",
+											"head": {
+												"$ref": "AAAAAAGGnqK5WUDI0oM="
+											},
+											"tail": {
+												"$ref": "AAAAAAGGnqKT+UC+7Dc="
+											},
+											"lineStyle": 2,
+											"points": "431:365;431:424",
+											"nameLabel": {
+												"$ref": "AAAAAAGGnqxWOUFf2io="
+											}
+										},
+										{
+											"_type": "FCFlowView",
+											"_id": "AAAAAAGGnqyaEEFq7lw=",
+											"_parent": {
+												"$ref": "AAAAAAGGnpAJbEClETY="
+											},
+											"model": {
+												"$ref": "AAAAAAGGnqyaEEFoOcI="
+											},
+											"subViews": [
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAGGnqyaEEFrhKk=",
+													"_parent": {
+														"$ref": "AAAAAAGGnqyaEEFq7lw="
+													},
+													"model": {
+														"$ref": "AAAAAAGGnqyaEEFoOcI="
+													},
+													"font": "Arial;13;0",
+													"left": 342,
+													"top": 471,
+													"width": 78.04443359375,
+													"height": 13,
+													"alpha": -1.7004992489747126,
+													"distance": 46.389654018972806,
+													"hostEdge": {
+														"$ref": "AAAAAAGGnqyaEEFq7lw="
+													},
+													"edgePosition": 1,
+													"text": "Enter amount"
+												}
+											],
+											"font": "Arial;13;0",
+											"head": {
+												"$ref": "AAAAAAGGnqM+KUDRD7w="
+											},
+											"tail": {
+												"$ref": "AAAAAAGGnqK5WUDI0oM="
+											},
+											"lineStyle": 2,
+											"points": "427:456;427:512",
+											"nameLabel": {
+												"$ref": "AAAAAAGGnqyaEEFrhKk="
+											}
+										},
+										{
+											"_type": "FCFlowView",
+											"_id": "AAAAAAGGnq0bqUF2/2c=",
+											"_parent": {
+												"$ref": "AAAAAAGGnpAJbEClETY="
+											},
+											"model": {
+												"$ref": "AAAAAAGGnq0bqEF00KA="
+											},
+											"subViews": [
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAGGnq0bqUF34k8=",
+													"_parent": {
+														"$ref": "AAAAAAGGnq0bqUF2/2c="
+													},
+													"model": {
+														"$ref": "AAAAAAGGnq0bqEF00KA="
+													},
+													"font": "Arial;13;0",
+													"left": 111,
+													"top": 543,
+													"width": 298.47314453125,
+													"height": 13,
+													"alpha": -2.7190610268829376,
+													"distance": 282.8780656042458,
+													"hostEdge": {
+														"$ref": "AAAAAAGGnq0bqUF2/2c="
+													},
+													"edgePosition": 1,
+													"text": "[amount>balance] dispose amount"
+												}
+											],
+											"font": "Arial;13;0",
+											"head": {
+												"$ref": "AAAAAAGGnqIzMUCrYhA="
+											},
+											"tail": {
+												"$ref": "AAAAAAGGnqM+KUDRD7w="
+											},
+											"lineStyle": 2,
+											"points": "384:536;144:536;144:48;392:48",
+											"nameLabel": {
+												"$ref": "AAAAAAGGnq0bqUF34k8="
+											}
+										},
+										{
+											"_type": "FCFlowView",
+											"_id": "AAAAAAGGnq1SsEGCaH8=",
+											"_parent": {
+												"$ref": "AAAAAAGGnpAJbEClETY="
+											},
+											"model": {
+												"$ref": "AAAAAAGGnq1SsEGAMQU="
+											},
+											"subViews": [
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAGGnq1SsEGDIcg=",
+													"_parent": {
+														"$ref": "AAAAAAGGnq1SsEGCaH8="
+													},
+													"model": {
+														"$ref": "AAAAAAGGnq1SsEGAMQU="
+													},
+													"font": "Arial;13;0",
+													"left": 504,
+													"top": 544,
+													"width": 301.35498046875,
+													"height": 13,
+													"alpha": -3.7455230463490636,
+													"distance": 313.4453700407776,
+													"hostEdge": {
+														"$ref": "AAAAAAGGnq1SsEGCaH8="
+													},
+													"edgePosition": 1,
+													"text": "[amount<=balance] dispose amount and return card"
+												}
+											],
+											"font": "Arial;13;0",
+											"head": {
+												"$ref": "AAAAAAGGnqIzMUCrYhA="
+											},
+											"tail": {
+												"$ref": "AAAAAAGGnqM+KUDRD7w="
+											},
+											"lineStyle": 2,
+											"points": "472:536;832:536;832:48;480:48",
+											"nameLabel": {
+												"$ref": "AAAAAAGGnq1SsEGDIcg="
+											}
+										}
+									]
+								},
+								{
+									"_type": "FCTerminator",
+									"_id": "AAAAAAGGnqIzMUCpUuc=",
+									"_parent": {
+										"$ref": "AAAAAAGGnpAJbECk6X4="
+									},
+									"name": "Welcome",
+									"ownedElements": [
+										{
+											"_type": "FCFlow",
+											"_id": "AAAAAAGGnqRQuUDmSYQ=",
+											"_parent": {
+												"$ref": "AAAAAAGGnqIzMUCpUuc="
+											},
+											"name": "Insert card",
+											"source": {
+												"$ref": "AAAAAAGGnqIzMUCpUuc="
+											},
+											"target": {
+												"$ref": "AAAAAAGGnqJaaECynZM="
+											}
+										}
+									]
+								},
+								{
+									"_type": "FCTerminator",
+									"_id": "AAAAAAGGnqJaaECynZM=",
+									"_parent": {
+										"$ref": "AAAAAAGGnpAJbECk6X4="
+									},
+									"name": "Card inserted",
+									"ownedElements": [
+										{
+											"_type": "FCFlow",
+											"_id": "AAAAAAGGnqSSaEDx61w=",
+											"_parent": {
+												"$ref": "AAAAAAGGnqJaaECynZM="
+											},
+											"name": "[Card refused] return card",
+											"source": {
+												"$ref": "AAAAAAGGnqJaaECynZM="
+											},
+											"target": {
+												"$ref": "AAAAAAGGnqIzMUCpUuc="
+											}
+										},
+										{
+											"_type": "FCFlow",
+											"_id": "AAAAAAGGnqVTkUEDgyQ=",
+											"_parent": {
+												"$ref": "AAAAAAGGnqJaaECynZM="
+											},
+											"name": "Card accepted",
+											"source": {
+												"$ref": "AAAAAAGGnqJaaECynZM="
+											},
+											"target": {
+												"$ref": "AAAAAAGGnqKT+EC8Mv0="
+											}
+										},
+										{
+											"_type": "FCFlow",
+											"_id": "AAAAAAGGnqcgYUEtiPg=",
+											"_parent": {
+												"$ref": "AAAAAAGGnqJaaECynZM="
+											},
+											"name": " input PIN [PIN wrong for 1st or 2nd time]",
+											"source": {
+												"$ref": "AAAAAAGGnqJaaECynZM="
+											},
+											"target": {
+												"$ref": "AAAAAAGGnqKT+EC8Mv0="
+											}
+										}
+									]
+								},
+								{
+									"_type": "FCTerminator",
+									"_id": "AAAAAAGGnqKT+EC8Mv0=",
+									"_parent": {
+										"$ref": "AAAAAAGGnpAJbECk6X4="
+									},
+									"name": "Card correct",
+									"ownedElements": [
+										{
+											"_type": "FCFlow",
+											"_id": "AAAAAAGGnqrp4EFJJdg=",
+											"_parent": {
+												"$ref": "AAAAAAGGnqKT+EC8Mv0="
+											},
+											"name": "input PIN[PIN wrong for 3rd time] retract card",
+											"source": {
+												"$ref": "AAAAAAGGnqKT+EC8Mv0="
+											},
+											"target": {
+												"$ref": "AAAAAAGGnqIzMUCpUuc="
+											}
+										},
+										{
+											"_type": "FCFlow",
+											"_id": "AAAAAAGGnqxWOEFcROg=",
+											"_parent": {
+												"$ref": "AAAAAAGGnqKT+EC8Mv0="
+											},
+											"name": "PIN correct",
+											"source": {
+												"$ref": "AAAAAAGGnqKT+EC8Mv0="
+											},
+											"target": {
+												"$ref": "AAAAAAGGnqK5WEDGWkM="
+											}
+										}
+									]
+								},
+								{
+									"_type": "FCTerminator",
+									"_id": "AAAAAAGGnqK5WEDGWkM=",
+									"_parent": {
+										"$ref": "AAAAAAGGnpAJbECk6X4="
+									},
+									"name": "PIN correct",
+									"ownedElements": [
+										{
+											"_type": "FCFlow",
+											"_id": "AAAAAAGGnqyaEEFoOcI=",
+											"_parent": {
+												"$ref": "AAAAAAGGnqK5WEDGWkM="
+											},
+											"name": "Enter amount",
+											"source": {
+												"$ref": "AAAAAAGGnqK5WEDGWkM="
+											},
+											"target": {
+												"$ref": "AAAAAAGGnqM+KUDPDrI="
+											}
+										}
+									]
+								},
+								{
+									"_type": "FCTerminator",
+									"_id": "AAAAAAGGnqM+KUDPDrI=",
+									"_parent": {
+										"$ref": "AAAAAAGGnpAJbECk6X4="
+									},
+									"name": "Amount entered",
+									"ownedElements": [
+										{
+											"_type": "FCFlow",
+											"_id": "AAAAAAGGnq0bqEF00KA=",
+											"_parent": {
+												"$ref": "AAAAAAGGnqM+KUDPDrI="
+											},
+											"name": "[amount>balance] dispose amount",
+											"source": {
+												"$ref": "AAAAAAGGnqM+KUDPDrI="
+											},
+											"target": {
+												"$ref": "AAAAAAGGnqIzMUCpUuc="
+											}
+										},
+										{
+											"_type": "FCFlow",
+											"_id": "AAAAAAGGnq1SsEGAMQU=",
+											"_parent": {
+												"$ref": "AAAAAAGGnqM+KUDPDrI="
+											},
+											"name": "[amount<=balance] dispose amount and return card",
+											"source": {
+												"$ref": "AAAAAAGGnqM+KUDPDrI="
+											},
+											"target": {
+												"$ref": "AAAAAAGGnqIzMUCpUuc="
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
